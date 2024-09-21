@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Expected Years of Schooling Gloally",
+    "title": "Global Share of Children Enrolled In Primary School",
     "width": 800,
     "height": 400,
     "projection": {
@@ -39,7 +39,7 @@
                     "lookup": "properties.NAME",
                     "from": {
                         "data": {
-                            "url": "https://raw.githubusercontent.com/ecyl456/week9_homework/refs/heads/main/expected-years-of-schooling.csv"
+                            "url": "https://raw.githubusercontent.com/ecyl456/week9_homework/refs/heads/main/primary-enrollment-selected-countries.csv"
                         },
                         "key": "Entity",
                         "fields": [
@@ -49,7 +49,7 @@
                 },
                 {
                     "calculate": "datum['Combined total net enrolment rate, primary, both sexes']",
-                    "as": "Combined Total Net Enrolment Rate(Primary, both sexes)"
+                    "as": "Combined total net enrolment rate, primary, both sexes"
                 }
             ],
             "mark": {
