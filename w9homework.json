@@ -28,7 +28,7 @@
         },
         {
             "data": {
-                "url": "ne_1_.json",
+                "url": "https://raw.githubusercontent.com/ecyl456/week9_homework/refs/heads/main/ne_1_.json",
                 "format": {
                     "type": "topojson",
                     "feature": "ne_10m_admin_0_countries"
@@ -39,7 +39,7 @@
                     "lookup": "properties.NAME",
                     "from": {
                         "data": {
-                            "url": "expected-years-of-schooling.csv"
+                            "url": "https://raw.githubusercontent.com/ecyl456/week9_homework/refs/heads/main/expected-years-of-schooling.csv"
                         },
                         "key": "Entity",
                         "fields": [
